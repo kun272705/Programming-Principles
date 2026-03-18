@@ -21,7 +21,7 @@ Code segment has fixed size.
 
 第 2 段：Data segment
 
-Data segment contains initialized static/global variables.
+Data segment contains non-zero-initialized static/global variables.
 
 第 3 段：BSS segment
 
