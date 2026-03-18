@@ -23,7 +23,7 @@ Data segment contains non-zero-initialized static/global variables.
 
 第 3 段：BSS segment
 
-BSS segment contains uninitialized or zero-initialized static/global variables and constants.
+BSS segment contains uninitialized or zero-initialized static/global variables.
 
 第 4 段：Heap segment
 
