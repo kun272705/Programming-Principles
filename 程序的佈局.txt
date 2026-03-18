@@ -15,7 +15,7 @@
 
 第 1 段：Code segment
 
-Code segment contains executable code.
+Code segment contains executable instructions.
 
 第 2 段：Data segment
 
