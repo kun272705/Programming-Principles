@@ -1,0 +1,32 @@
+
+程序的佈局
+
+|---------------|
+| Stack segment |
+|---------------|
+| Heap segment  |
+|---------------|
+| BSS segment   |
+|---------------|
+| Data segment  |
+|---------------|
+| Code segment  |
+|---------------|
+
+第 1 段：Code segment
+
+Code segment contains executable code.
+Code segment is read only.
+Code segment has fixed size.
+
+第 2 段：Data segment
+
+Data segment contains initialized static/global variables.
+
+第 3 段：BSS segment
+
+BSS segment contains uninitialized or zero-initialized static/global variables and constants.
+
+第 4 段：Heap segment
+
+第 5 段：Stack segment
