@@ -51,7 +51,7 @@ ScrollBar scrollBar = factory.createScrollBar();
 
 問題：想讓一個對象返回一個自己的克隆體。
 
-辦法：給這個對象增加一個 clone 辦法，在 clone 辦法中調用構造器並傳入 this，讓構造器將對象的狀態複製給新創建的對象然後返回。
+辦法：給這個對象增加一個 clone 方法，在 clone 方法中調用構造器並傳入 this，讓構造器將對象的狀態複製給新創建的對象然後返回。
 
 第 04 個：Singleton
 
