@@ -1,8 +1,12 @@
 
 映像的佈局
 
-第一段映像是 code segment，包含 executable instructions.
-第二段映像是 data segment，包含 nonzero-initialized static/global variables.
-第三段映像是 BSS segment，包含 zero-initialized static/global variables.
-第四段映像是 heap segment，包含 dynamically allocated memory.
-第五段映像是 stack segment，包含 call stack.
+第一段映像是 code segment，包含 executable instruction。
+
+第二段映像是 data segment，包含 nonzero-initialized static/global variables。
+
+第三段映像是 BSS segment，包含 zero-initialized static/global variables。
+
+第四段映像是 heap segment，包含 dynamically allocated memory。
+
+第五段映像是 stack segment，包含 call stack。
