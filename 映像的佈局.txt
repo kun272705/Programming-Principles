@@ -1,5 +1,5 @@
 
-編程的原理：映像的佈局
+映像的佈局
 
 第一段映像是 code segment，包含 executable instructions.
 第二段映像是 data segment，包含 nonzero-initialized static/global variables.
