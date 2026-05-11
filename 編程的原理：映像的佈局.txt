@@ -1,8 +1,8 @@
 
 編程的原理：映像的佈局
 
-第 1 段是 code segment，the code segment contains executable instructions.
-第 2 段是 data segment，the data segment contains nonzero-initialized static/global variables.
-第 3 段是 BSS segment，the BSS segment contains zero-initialized static/global variables.
-第 4 段是 heap segment，the heap segment contains dynamically allocated memory.
-第 5 段是 stack segment，the stack segment contains the call stack.
+第一段映像是 code segment，包含 executable instructions.
+第二段映像是 data segment，包含 nonzero-initialized static/global variables.
+第三段映像是 BSS segment，包含 zero-initialized static/global variables.
+第四段映像是 heap segment，包含 dynamically allocated memory.
+第五段映像是 stack segment，包含 call stack.
