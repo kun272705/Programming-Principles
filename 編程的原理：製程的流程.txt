@@ -1,8 +1,8 @@
 
 編程的原理：製程的流程
 
-第 1 步，程序員（programmer）使用 C 語言編程，得到了 hello.c。
-第 2 步，預處理器（cpp）根據以字符 # 開頭的命令修改原始的 C 程序，得到了另一个 C 語言程序 hello.i。
-第 3 步，編譯器（ccl）將 hello.i 翻譯成匯編語言程序，得到了 hello.s。
-第 4 步，滙編器（as）將 hello.s 翻譯成機器語言程序，得到了 hello.o。
-第 5 步，鏈接器（ld）將 hello.o 和 printf.o 合并在一起，得到了另一個機器語言程序 hello。
+第一步是程序員（programmer）使用 C 語言編程，得到了 hello.c。
+第二步是預處理器（cpp）根據以字符 # 開頭的命令修改原始的 C 程序，得到了另一个 C 語言程序 hello.i。
+第三步是編譯器（ccl）將 hello.i 翻譯成匯編語言程序，得到了 hello.s。
+第四步是滙編器（as）將 hello.s 翻譯成機器語言程序，得到了 hello.o。
+第五步是鏈接器（ld）將 hello.o 和 printf.o 合并在一起，得到了另一個機器語言程序 hello。
